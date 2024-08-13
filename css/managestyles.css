@@ -1,0 +1,195 @@
+/* manage admin styles */
+#addemp-div {
+    width: 75vw;
+    height: 100%;
+    margin-top: 50px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.bodycard {
+    width: 76vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group select {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.form-group input[type=radio] {
+    width: auto;
+}
+
+.form-group span {
+    color: red;
+    font-size: 12px;
+}
+
+#addem_btn {
+    width: 200px;
+    height: 40px;
+    margin: 17px 0px 0px 50px;
+}
+
+/* manage employee styles */
+#addemp-div {
+    width: 75vw;
+    height: 100%;
+    margin-top: 50px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.bodycard {
+    width: 76vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group select {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.form-group input[type=radio] {
+    width: auto;
+}
+
+.form-group span {
+    color: red;
+    font-size: 12px;
+}
+
+#addem_btn {
+    width: 200px;
+    height: 40px;
+    margin: 17px 0px 0px 50px;
+}
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+.add-district-container {
+    display: flex;
+    justify-content: end;
+}
+
+.add-district-container .add-district {
+    display: block;
+    font-size: 20px;
+    width: 160px;
+    background-color: #3458eb;
+    color: white;
+    border-radius: 7px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+#center-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.message {
+    color: red;
+    font-weight: bold;
+}
+.message {
+    color: red;
+    font-weight: bold;
+}
+
+/* add employee dropdowen styles */
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.selected-state,
+.selected-district {
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.dropdown-content input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.dropdown-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-list li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dropdown-list li:hover {
+    background-color: #f1f1f1;
+}
+

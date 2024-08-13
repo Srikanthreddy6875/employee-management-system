@@ -1,0 +1,144 @@
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.selected-state {
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-height: 200px;
+    /* Add this for scrollbar to appear */
+    overflow-y: auto;
+    /* Enable scrolling */
+    transition: 0.5s ease;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.dropdown-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-list li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dropdown-list li:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-list li.disabled {
+    color: #ccc;
+    pointer-events: none;
+}
+
+
+.dropdown-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.dropdown-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
+}
+
+.dropdown-content::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 25px;
+}
+
+
+/* add styles in same destrict */
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.selected-state,
+.selected-district {
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-height: 200px; /* Add this for scrollbar to appear */
+    overflow-y: auto;  /* Enable scrolling */
+    transition: 0.5s ease;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.dropdown-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-list li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dropdown-list li:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-list li.disabled {
+    color: #ccc;
+    pointer-events: none;
+}
+
+/* Scrollbar styles */
+.dropdown-content::-webkit-scrollbar {
+    width: 7px;
+}
+
+.dropdown-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
+}
+
+.dropdown-content::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 25px;
+}
+
+/* Active styles */
+.dropdown-list li:hover,
+.dropdown-list input:checked ~ label {
+    background-color: #f2f2f2;
+}
+
+.dropdown-list input:focus ~ label {
+    background-color: #dfdfdf;
+}
